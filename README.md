@@ -53,7 +53,7 @@ Mermaid 是一个基于 Javascript 的图表绘制工具，通过解析类 Markd
 绘图和编写文档花费了开发者宝贵的开发时间，而且随着业务的变更，它很快就会过期。 但是如果缺少了图表或文档，对于生产力和团队新人的业务学习都会产生巨大的阻碍。 <br/>
 Mermaid 通过允许用户创建便于修改的图表来解决这一难题，它也可以作为生产脚本（或其他代码）的一部分。<br/>
 <br/>
-Mermaid 甚至能让非程序员也能通过 [Mermaid Live Editor](https://www.min2k.com/tools/mermaid/) 轻松创建详细的图表。<br/>
+Mermaid 甚至能让非程序员也能通过 [中文Mermaid](https://www.min2k.com/tools/mermaid/) 轻松创建详细的图表。<br/>
 你可以访问 [教程](https://docs.min2k.com/zh/mermaid/intro/) 来查看 Live Editor 的视频教程，也可以查看 [Mermaid 的集成和使用](https://docs.min2k.com/zh/mermaid/intro/) 这个清单来检查你的文档工具是否已经集成了 Mermaid 支持。
 
 如果想要查看关于 Mermaid 更详细的介绍及基础使用方式，可以查看 [入门指引](https://docs.min2k.com/zh/mermaid/intro/), [用法](https://docs.min2k.com/zh/mermaid/config/usage.html) 和 [教程](https://docs.min2k.com/zh/mermaid/intro).
@@ -175,7 +175,7 @@ class Class10 {
 }
 ```
 
-### 状态图 [<a href="https://docs.min2k.com/zh/mermaid/syntax/stateDiagram.html">docs</a> - <a href="https://www.min2k.com/tools/mermaid/">在线编辑器</a>]
+### 状态图 [<a href="https://docs.min2k.com/zh/mermaid/syntax/stateDiagram.html">文档</a> - <a href="https://www.min2k.com/tools/mermaid/">在线编辑器</a>]
 
 ```
 stateDiagram-v2
@@ -328,7 +328,7 @@ npm publish
 ## 相关项目
 
 - [Command Line Interface](https://github.com/mermaid-js/mermaid-cli)
-- [Live Editor](https://github.com/mermaid-js/mermaid-live-editor)
+- [在线实时编辑器](https://www.min2k.com/tools/mermaid/)
 - [HTTP Server](https://github.com/TomWright/mermaid-server)
 
 ## 贡献者 [![Good first issue](https://img.shields.io/github/labels/mermaid-js/mermaid/Good%20first%20issue%21)](https://github.com/mermaid-js/mermaid/issues?q=is%3Aissue+is%3Aopen+label%3A%22Good+first+issue%21%22) [![Contributors](https://img.shields.io/github/contributors/mermaid-js/mermaid)](https://github.com/mermaid-js/mermaid/graphs/contributors) [![Commits](https://img.shields.io/github/commit-activity/m/mermaid-js/mermaid)](https://github.com/mermaid-js/mermaid/graphs/contributors)
