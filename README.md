@@ -17,12 +17,9 @@ Mermaid
 <p align="center">
  <a href="https://docs.min2k.com/zh/mermaid/intro/">📖 文档</a> | <a href="https://docs.min2k.com/zh/mermaid/intro/">🚀 入门</a> | <a href="https://www.jsdelivr.com/package/npm/mermaid">🌐 CDN</a> | <a href="https://discord.gg/AgrbSrBer3" title="Discord invite">🙌 加入我们</a>
 </p>
-<p align="center">
-<a href="./README.md">English</a>
-</p>
 
 <p align="center">
-尝试未来版本的实时编辑器预览: <a href="https://develop.git.mermaid.live/" title="尝试来自develop分支的mermaid版本。">Develop</a> | <a href="https://next.git.mermaid.live/" title="尝试来自next分支的mermaid版本。">Next</a>
+<a href="https://www.min2k.com/tools/mermaid/">尝试实时编辑器预览</a>
 </p>
 
 <br>
@@ -57,9 +54,9 @@ Mermaid 是一个基于 Javascript 的图表绘制工具，通过解析类 Markd
 Mermaid 通过允许用户创建便于修改的图表来解决这一难题，它也可以作为生产脚本（或其他代码）的一部分。<br/>
 <br/>
 Mermaid 甚至能让非程序员也能通过 [Mermaid Live Editor](https://www.min2k.com/tools/mermaid/) 轻松创建详细的图表。<br/>
-你可以访问 [教程](https://mermaid.js.org/ecosystem/tutorials.html) 来查看 Live Editor 的视频教程，也可以查看 [Mermaid 的集成和使用](https://mermaid.js.org/ecosystem/integrations-community.html) 这个清单来检查你的文档工具是否已经集成了 Mermaid 支持。
+你可以访问 [教程](https://docs.min2k.com/zh/mermaid/intro/) 来查看 Live Editor 的视频教程，也可以查看 [Mermaid 的集成和使用](https://docs.min2k.com/zh/mermaid/intro/) 这个清单来检查你的文档工具是否已经集成了 Mermaid 支持。
 
-如果想要查看关于 Mermaid 更详细的介绍及基础使用方式，可以查看 [入门指引](https://docs.min2k.com/zh/mermaid/intro/), [用法](https://mermaid.js.org/config/usage.html) 和 [教程](https://mermaid.js.org/ecosystem/tutorials.html).
+如果想要查看关于 Mermaid 更详细的介绍及基础使用方式，可以查看 [入门指引](https://docs.min2k.com/zh/mermaid/intro/), [用法](https://docs.min2k.com/zh/mermaid/config/usage.html) 和 [教程](https://docs.min2k.com/zh/mermaid/intro).
 
 <!-- </Main description> -->
 
@@ -70,7 +67,7 @@ Mermaid 甚至能让非程序员也能通过 [Mermaid Live Editor](https://www.m
 <table>
 <!-- <Flowchart> -->
 
-### 流程图 [<a href="https://docs.min2k.com/zh/mermaid/syntax/flowchart.html">文档</a> - <a href="https://www.min2k.com/tools/mermaid/">live editor</a>]
+### 流程图 [<a href="https://docs.min2k.com/zh/mermaid/syntax/flowchart.html">文档</a> - <a href="https://www.min2k.com/tools/mermaid/">在线编辑器</a>]
 
 ```
 flowchart LR
@@ -88,7 +85,7 @@ C -->|One| D[Result 1]
 C -->|Two| E[Result 2]
 ```
 
-### 时序图 [<a href="https://docs.min2k.com/zh/mermaid/syntax/sequenceDiagram.html">文档</a> - <a href="https://www.min2k.com/tools/mermaid/">live editor</a>]
+### 时序图 [<a href="https://docs.min2k.com/zh/mermaid/syntax/sequenceDiagram.html">文档</a> - <a href="https://www.min2k.com/tools/mermaid/">在线编辑器</a>]
 
 ```
 sequenceDiagram
@@ -114,7 +111,7 @@ John->>Bob: How about you?
 Bob-->>John: Jolly good!
 ```
 
-### 甘特图 [<a href="https://docs.min2k.com/zh/mermaid/syntax/gantt.html">文档</a> - <a href="https://www.min2k.com/tools/mermaid/">live editor</a>]
+### 甘特图 [<a href="https://docs.min2k.com/zh/mermaid/syntax/gantt.html">文档</a> - <a href="https://www.min2k.com/tools/mermaid/">在线编辑器</a>]
 
 ```
 gantt
@@ -138,7 +135,7 @@ gantt
     Parallel 4   :         des6, after des4, 1d
 ```
 
-### 类图 [<a href="https://docs.min2k.com/zh/mermaid/syntax/classDiagram.html">文档</a> - <a href="https://www.min2k.com/tools/mermaid/">live editor</a>]
+### 类图 [<a href="https://docs.min2k.com/zh/mermaid/syntax/classDiagram.html">文档</a> - <a href="https://www.min2k.com/tools/mermaid/">在线编辑器</a>]
 
 ```
 classDiagram
@@ -178,7 +175,7 @@ class Class10 {
 }
 ```
 
-### 状态图 [<a href="https://docs.min2k.com/zh/mermaid/syntax/stateDiagram.html">docs</a> - <a href="https://www.min2k.com/tools/mermaid/">live editor</a>]
+### 状态图 [<a href="https://docs.min2k.com/zh/mermaid/syntax/stateDiagram.html">docs</a> - <a href="https://www.min2k.com/tools/mermaid/">在线编辑器</a>]
 
 ```
 stateDiagram-v2
@@ -200,7 +197,7 @@ Moving --> Crash
 Crash --> [*]
 ```
 
-### 饼图 [<a href="https://docs.min2k.com/zh/mermaid/syntax/pie.html">文档</a> - <a href="https://www.min2k.com/tools/mermaid/">live editor</a>]
+### 饼图 [<a href="https://docs.min2k.com/zh/mermaid/syntax/pie.html">文档</a> - <a href="https://www.min2k.com/tools/mermaid/">在线编辑器</a>]
 
 ```
 pie
@@ -216,9 +213,9 @@ pie
 "Rats" : 15
 ```
 
-### Git 图 [实验特性 - <a href="https://www.min2k.com/tools/mermaid/">live editor</a>]
+### Git 图 [实验特性 - <a href="https://www.min2k.com/tools/mermaid/">在线编辑器</a>]
 
-### 用户体验旅程图 [<a href="https://docs.min2k.com/zh/mermaid/syntax/userJourney.html">文档</a> - <a href="https://www.min2k.com/tools/mermaid/">live editor</a>]
+### 用户体验旅程图 [<a href="https://docs.min2k.com/zh/mermaid/syntax/userJourney.html">文档</a> - <a href="https://www.min2k.com/tools/mermaid/">在线编辑器</a>]
 
 ```
   journey
